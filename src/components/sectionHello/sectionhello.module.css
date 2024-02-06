@@ -1,0 +1,41 @@
+.sectionHelloContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 5rem;
+}
+
+.hello {
+  color: #a8201a;
+  font-family: "Secular One", sans-serif;
+}
+.fullStack {
+  font-family: "Anton", sans-serif;
+  font-size: 80px;
+}
+.description {
+  font-family: "Secular One", sans-serif;
+  font-size: large;
+  text-align: left;
+}
+
+.iconsContainer {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 2.5em;
+}
+.iconItem {
+  margin: 0 15px;
+  display: flex;
+  text-decoration: none;
+}
+/* 
+
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Noto Serif NP Hmong', serif;
+font-family: 'Secular One', sans-serif;
+font-family: 'Unbounded', sans-serif; */

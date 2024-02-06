@@ -1,0 +1,24 @@
+.codingSkillsContainer {
+  margin-top: 2em;
+}
+
+.iconsSkillContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.skillRow {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 2em;
+}
+
+.skillTitle {
+  font-family: "Secular One", sans-serif;
+  font-size: x-large;
+  text-align: center;
+}
