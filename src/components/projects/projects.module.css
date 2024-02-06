@@ -1,0 +1,62 @@
+.proyectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardContainer {
+  perspective: 1000px;
+  margin: 3rem;
+}
+
+.card {
+  width: 500px;
+  height: 400px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+.cardFront,
+.cardBack {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.cardFront {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #a8201a;
+  font-family: "Secular One", sans-serif;
+}
+
+.cardBack {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.techContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.techItem {
+  margin: 10px;
+}
+
+.urlContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
