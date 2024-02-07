@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #333;
+  background-color: #202f46;
   color: #fff;
   padding: 10px;
   position: fixed;
@@ -26,6 +26,7 @@
   margin-right: 4rem;
   display: flex;
   flex-direction: row;
+  font-family: "Secular One", sans-serif;
 }
 
 .navbar__list-item {
@@ -36,10 +37,12 @@
   text-decoration: none;
   color: #fff;
   margin: 0rem 2rem;
+  transition: color 0.3s, background-color 0.3s;
 }
 
 .navbar__link:hover {
-  color: #ddd;
+  color: #a8201a;
+  background-color: #333;
 }
 
 .navbar__menuButton {

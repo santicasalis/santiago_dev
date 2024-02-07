@@ -83,3 +83,9 @@
 .link:hover {
   border-color: white; /* Color del borde al pasar el mouse */
 }
+
+.title {
+  font-family: "Secular One", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+}

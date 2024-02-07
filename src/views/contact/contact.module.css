@@ -1,3 +1,9 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .error {
   color: red;
   margin-top: 5px;
@@ -7,5 +13,48 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  justify-content: center;
+  width: 500px;
+  height: 25rem;
+  border: 2px solid #3498db;
+  border-radius: 15px;
+}
+
+.formResponsive label {
+  margin: 1rem;
+}
+
+.inputField {
+  width: 70%;
+  height: 30px;
+}
+.textAreaField {
+  width: 70%;
+  height: 80px;
+}
+.labelInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
+
+.buttonSubmit {
+  border: 2px solid #3498db;
+  border-radius: 15px;
+  margin: 15px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.buttonSubmit:hover {
+  background-color: #3498db; /* Color del borde al pasar el mouse */
+}
+
+.title {
+  font-family: "Secular One", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }

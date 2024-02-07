@@ -4,6 +4,7 @@ import * as Yup from "yup";
 import styles from "../contact/contact.module.css";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
+import { MdOutlineMarkEmailRead } from "react-icons/md";
 
 const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -52,8 +53,17 @@ const Contact = () => {
   };
 
   return (
-    <div>
-      <h1>Formulario</h1>
+    <div className={styles.contactContainer}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+        className={styles.title}
+      >
+        <MdOutlineMarkEmailRead style={{ marginRight: "8px" }} /> Contacto{" "}
+      </div>
       {isSubmitted && <p>Formulario enviado correctamente</p>}
       <Formik
         initialValues={initialValues}
@@ -61,27 +71,44 @@ const Contact = () => {
         onSubmit={handleSubmit}
       >
         <Form ref={form} onSubmit={sendEmail} className={styles.formResponsive}>
-          <label htmlFor="nombre">Nombre:</label>
-          <Field name="nombre" id="nombre" />
-          <ErrorMessage
-            name="nombre"
-            component="div"
-            className={styles.error}
-          />
+          <div className={styles.labelInput}>
+            <label htmlFor="nombre">Nombre:</label>
+            <Field className={styles.inputField} name="nombre" id="nombre" />
+            <ErrorMessage
+              name="nombre"
+              component="div"
+              className={styles.error}
+            />
 
-          <label htmlFor="email">Email:</label>
-          <Field name="email" id="email" type="email" />
-          <ErrorMessage name="email" component="div" className={styles.error} />
+            <label htmlFor="email">Email:</label>
+            <Field
+              name="email"
+              id="email"
+              type="email"
+              className={styles.inputField}
+            />
+            <ErrorMessage
+              name="email"
+              component="div"
+              className={styles.error}
+            />
 
-          <label htmlFor="mensaje">Mensaje:</label>
-          <Field name="mensaje" id="mensaje" as="textarea" />
-          <ErrorMessage
-            name="mensaje"
-            component="div"
-            className={styles.error}
-          />
-
-          <button type="submit">Enviar</button>
+            <label htmlFor="mensaje">Mensaje:</label>
+            <Field
+              name="mensaje"
+              id="mensaje"
+              as="textarea"
+              className={styles.textAreaField}
+            />
+            <ErrorMessage
+              name="mensaje"
+              component="div"
+              className={styles.error}
+            />
+          </div>
+          <button type="submit" className={styles.buttonSubmit}>
+            Enviar
+          </button>
         </Form>
       </Formik>
     </div>

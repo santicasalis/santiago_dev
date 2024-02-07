@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import styles from "./nav.module.css";
+import logo from "../../assets/logo.png";
 interface NavItem {
   label: string;
   path: string;
@@ -24,7 +25,7 @@ export const Nav = () => {
     <header className={styles.navbar}>
       <nav className={styles.navbar__nav}>
         <Link to="/" className={styles.navbar__logo}>
-          Santi
+          <img src={logo} alt="" style={{ width: "70px", height: "70px" }} />
         </Link>
         <ul
           className={`${styles.navbar__list} ${

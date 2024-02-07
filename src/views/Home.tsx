@@ -1,8 +1,9 @@
 import React from "react";
-import { Nav } from "../components/nav/Nav";
+
 import { SectionHello } from "../components/sectionHello/SectionHello";
 import { CodingSkills } from "../components/codingSkills/CodingSkills";
 import { Projectos } from "./Projectos";
+import Contact from "./contact/Contact";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <SectionHello />
       <CodingSkills />
       <Projectos />
+      <Contact />
     </div>
   );
 };
