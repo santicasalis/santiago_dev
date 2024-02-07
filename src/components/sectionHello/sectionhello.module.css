@@ -31,6 +31,23 @@
   display: flex;
   text-decoration: none;
 }
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border: 2px solid #3498db;
+  border-radius: 15px;
+  margin: 5px;
+  text-decoration: none;
+  color: #3498db;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.link:hover {
+  border-color: white; /* Color del borde al pasar el mouse */
+}
 /* 
 
 font-family: 'Anton', sans-serif;

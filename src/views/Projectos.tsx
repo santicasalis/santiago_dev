@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     name: "Conect Ink",
     description:
-      "App realizada como proyecto final del bootcamp Soy Henry. Como función principal, conecta tatuadores con clientes, permitiendo a los clientes reservar turnos con los tatuadores. Como funcionalidad adicional, tiene un apartado de red social donde los tatuadores hacen publicaciones e interactúan con los demás tatuadores y con los clientes.",
+      "La App es una red social de Tatuajes. Te puedes registar como Artista o como cliente. Los artistas tienen la posibilidad de subir publicaciones y gestionar sus agenda de turnos. Los clientes pueden explorar y realizar reservas de turnos para tatuarse con sus artistas favorito",
     image: "/src/assets/connectink.png",
     technologies: [
       "/src/assets/next.png",
@@ -14,7 +14,7 @@ const projects = [
       "/src/assets/nodejs.png",
       "/src/assets/firebase.png",
       "/src/assets/redux.png",
-      "/src/assets/express.png",
+      "/src/assets/expre.png",
       "/src/assets/postgre.png",
       "/src/assets/html.png",
       "/src/assets/css.png",
@@ -28,7 +28,7 @@ const projects = [
     id: 3,
     name: "ToDo list",
     description:
-      "consiste en una pagina web que te permite gestionar tus tareas. Es una aplicacion creada con Vue.js que permite a usuarios crear una cuenta, añadir tareas a completar, editarlas, marcarlas como completadas y finalmente borrarlas. Nuestra pagina web esta vinculada a una base de datos, donde estaremos almacenando todos los datos de usuarios y las tareas.",
+      "Es una app que te permite gestionar tus tareas.Permite a los usuarios crear una cuenta, añadir tareas a completar, editarlas, marcarlas como completadas y finalmente borrarlas.La app esta vinculada a una base de datos en Supabase, donde se almacenantodos los datos de los usuarios y sus tareas.",
     image: "/src/assets/todo.png",
     technologies: [
       "/src/assets/vue.png",
@@ -44,9 +44,9 @@ const projects = [
   ,
   {
     id: 4,
-    name: "Circle",
+    name: "Circle Agency",
     description:
-      "consiste en una pagina web que te permite gestionar tus tareas. Es una aplicacion creada con Vue.js que permite a usuarios crear una cuenta, añadir tareas a completar, editarlas, marcarlas como completadas y finalmente borrarlas. Nuestra pagina web esta vinculada a una base de datos, donde estaremos almacenando todos los datos de usuarios y las tareas.",
+      "Es una página web creada exclusivamente con JavaScript, HTML y CSS. Esta plataforma te brinda una experiencia intuitiva y atractiva para explorar los servicios de la empresa. ",
     image: "/src/assets/circle.png",
     technologies: [
       "/src/assets/js.png",
@@ -60,8 +60,8 @@ const projects = [
     id: 2,
     name: "Ecommerce Ford",
     description:
-      "El mismo consiste en un Ecommerse de vehiculos de la marca Ford. Utilizando React y firebase como base de datos",
-    image: "/src/assets/ford.png",
+      "Es un Ecommerse de vehiculos de la marca Ford. Utilizando React y firebase como base de datos dónde se maneja los precios y stock de los vehículos.",
+    image: "/src/assets/forda.png",
     technologies: [
       "/src/assets/react.png",
       "/src/assets/nodejs.png",
@@ -77,7 +77,7 @@ const projects = [
 
 export const Projectos = () => {
   return (
-    <div>
+    <div style={{ marginTop: "3rem", marginBottom: "3rem" }}>
       <div className={styles.skillTitle}>Projects</div>
       <ProjectsContainer projects={projects} />
     </div>

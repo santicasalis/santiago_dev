@@ -23,18 +23,23 @@ export const SectionHello = () => {
           <div className={styles.iconItem}>
             <Link
               to="https://www.linkedin.com/in/santiagocasalis/"
+              className={styles.link}
               target="_blank"
             >
               <FaLinkedin />
             </Link>
           </div>
           <div className={styles.iconItem}>
-            <Link to="https://github.com/santicasalis" target="_blank">
+            <Link
+              to="https://github.com/santicasalis"
+              className={styles.link}
+              target="_blank"
+            >
               <FaGithub />
             </Link>
           </div>
           <div className={styles.iconItem}>
-            <Link to="mailto:santicasalis@gmail.com">
+            <Link to="mailto:santicasalis@gmail.com" className={styles.link}>
               <MdOutlineMail />
             </Link>
           </div>

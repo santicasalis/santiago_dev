@@ -5,7 +5,7 @@
 
 .cardContainer {
   perspective: 1000px;
-  margin: 3rem;
+  margin: 4rem;
 }
 
 .card {
@@ -32,7 +32,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: #a8201a;
+  color: #3498db;
   font-family: "Secular One", sans-serif;
 }
 
@@ -43,6 +43,12 @@
   justify-content: space-around;
   align-items: center;
   width: 80%;
+  color: #3498db;
+  font-family: "Secular One", sans-serif;
+}
+.projectDescription {
+  color: white;
+  text-align: left;
 }
 
 .techContainer {
@@ -59,4 +65,21 @@
   display: flex;
   width: 100%;
   justify-content: space-around;
+}
+
+.link {
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  justify-content: space-between; /* Centra horizontalmente */
+  padding: 15px;
+  border: 2px solid #3498db;
+  border-radius: 15px;
+  margin: 5px;
+  text-decoration: none;
+  color: #3498db;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.link:hover {
+  border-color: white; /* Color del borde al pasar el mouse */
 }

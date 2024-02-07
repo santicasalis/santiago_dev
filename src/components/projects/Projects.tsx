@@ -1,6 +1,8 @@
 import styles from "../projects/projects.module.css";
 import { Link } from "react-router-dom";
 import React from "react";
+import { FaGithub } from "react-icons/fa";
+import { TbWorldWww } from "react-icons/tb";
 
 export const Projects = ({
   projectName,
@@ -17,7 +19,7 @@ export const Projects = ({
           {/*  cara frontal */}
           <h2>{projectName}</h2>
           <img src={projectImage} alt={projectName} />
-          <p>{projectDescription}</p>
+          <p className={styles.projectDescription}>{projectDescription}</p>
         </div>
         <div className={styles.cardBack}>
           {/* cara posterior */}
@@ -32,8 +34,17 @@ export const Projects = ({
             </div>
           </div>
           <div className={styles.urlContainer}>
-            <Link to={projectUrl}>Enlace Web </Link>
-            <Link to={projectGit}>Enlace GitHub</Link>
+            <Link to={projectUrl} className={styles.link} target="_blank">
+              <TbWorldWww style={{ fontSize: "24px", marginRight: "4px" }} />{" "}
+              Enlace Web{" "}
+            </Link>
+            <Link to={projectGit} className={styles.link} target="_blank">
+              {" "}
+              <FaGithub
+                style={{ fontSize: "24px", marginRight: " 4px" }}
+              />{" "}
+              Enlace GitHub
+            </Link>
           </div>
         </div>
       </div>

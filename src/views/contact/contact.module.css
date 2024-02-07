@@ -1,0 +1,11 @@
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.formResponsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
