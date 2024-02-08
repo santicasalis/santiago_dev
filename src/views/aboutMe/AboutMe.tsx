@@ -46,14 +46,7 @@ export const AboutMe = () => {
         </div>
       </div>
 
-      <div
-        style={{
-          border: "2px solid #3498db",
-          padding: "20px",
-          margin: "20px 0",
-          borderRadius: "15px",
-        }}
-      >
+      <div className={styles.descriptionContainer}>
         <p
           className={styles.description}
           style={{
@@ -65,13 +58,16 @@ export const AboutMe = () => {
           parte de equipos colaborativos, donde pueda aportar y aprender, con el
           objetivo final de contribuir al crecimiento y éxito de proyectos
           tecnológicos.
-          <br /> Tengo más de 9 años de experiencia en el sector automotriz, he
+          <br /> <br />
+          Tengo más de 9 años de experiencia en el sector automotriz, he
           destacado como responsable de procesos de atención al cliente y
           asistente administrativo en marketing y recursos humanos.
-          <br /> Mi historial incluye liderar equipos para garantizar altos
-          estándares de servicio, implementar estrategias efectivas para mejorar
-          la experiencia del cliente y gestionar eficientemente reclamaciones.
-          He integrado tecnologías para optimizar procesos administrativos
+          <br /> <br />
+          Mi historial incluye liderar equipos para garantizar altos estándares
+          de servicio, implementar estrategias efectivas para mejorar la
+          experiencia del cliente y gestionar eficientemente reclamaciones. He
+          integrado tecnologías para optimizar procesos administrativos
+          <br />
           <br />
           Durante los últimos dos años, he tenido la oportunidad de vivir una
           experiencia en Europa. Mi enfoque durante este tiempo ha sido la

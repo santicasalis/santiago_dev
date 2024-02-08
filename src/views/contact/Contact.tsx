@@ -5,6 +5,7 @@ import styles from "../contact/contact.module.css";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
+import { Experience } from "../../components/experience/Experience";
 
 const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);

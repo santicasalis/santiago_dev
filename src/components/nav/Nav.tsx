@@ -10,8 +10,8 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { label: "Inicio", path: "/" },
   { label: "Sobre Mi", path: "/aboutme" },
+  { label: "Experiencia", path: "/experience" },
   { label: "Contacto", path: "/contact" },
 ];
 export const Nav = () => {
@@ -25,7 +25,7 @@ export const Nav = () => {
     <header className={styles.navbar}>
       <nav className={styles.navbar__nav}>
         <Link to="/" className={styles.navbar__logo}>
-          <img src={logo} alt="" style={{ width: "70px", height: "70px" }} />
+          <img src={logo} alt="" style={{ width: "60px", height: "60px" }} />
         </Link>
         <ul
           className={`${styles.navbar__list} ${

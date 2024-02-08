@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 5rem;
+  margin-top: 7rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .hello {
@@ -56,3 +58,18 @@ font-family: 'Exo 2', sans-serif;
 font-family: 'Noto Serif NP Hmong', serif;
 font-family: 'Secular One', sans-serif;
 font-family: 'Unbounded', sans-serif; */
+@media screen and (max-width: 768px) {
+  .sectionHelloContainer {
+    align-items: flex-start;
+    margin-top: 7rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .fullStack {
+    text-align: center;
+  }
+  .description {
+    text-align: center;
+    margin: 1rem 2rem;
+  }
+}

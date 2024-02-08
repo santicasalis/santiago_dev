@@ -1,0 +1,41 @@
+.footerContainer {
+  display: flex;
+  align-items: center;
+  background-color: #202f46;
+  color: #fff;
+
+  width: 100%;
+  padding: 0rem;
+  height: 5rem;
+  margin-top: 3rem;
+}
+
+.iconsContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.iconItem {
+  margin: 0 15px;
+  display: flex;
+  text-decoration: none;
+}
+.iconSize {
+  width: 30px;
+  height: 30px;
+  color: #3498db;
+}
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 5px;
+  text-decoration: none;
+}
+
+.iconSize:hover {
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 2px;
+}

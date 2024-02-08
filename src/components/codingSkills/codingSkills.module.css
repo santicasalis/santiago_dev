@@ -22,3 +22,19 @@
   font-size: xx-large;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .skillRow {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+  }
+
+  .iconsSkillContainer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+  }
+}

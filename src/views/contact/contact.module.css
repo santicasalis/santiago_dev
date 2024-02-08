@@ -27,10 +27,12 @@
 .inputField {
   width: 70%;
   height: 30px;
+  border: 1px solid #3498db;
 }
 .textAreaField {
   width: 70%;
   height: 80px;
+  border: 1px solid #3498db;
 }
 .labelInput {
   display: flex;

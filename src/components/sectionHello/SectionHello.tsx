@@ -17,7 +17,7 @@ export const SectionHello = () => {
           industria automotriz. Mi experiencia en la gestión de procesos de
           atención al cliente y calidad de servicios me permite enfocarme en
           crear soluciones innovadoras que optimicen la experiencia del usuario.
-          Con un enfoquecentrado en la calidad y la eficiencia.
+          Con un enfoque centrado en la calidad y la eficiencia.
         </div>
         <div className={styles.iconsContainer}>
           <div className={styles.iconItem}>
