@@ -11,7 +11,7 @@
 
 .skillRow {
   display: flex;
-  width: 80%;
+  width: 100%;
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 2em;
@@ -30,11 +30,14 @@
     align-items: center;
     margin-top: 2em;
   }
-
+  .skillTitle {
+    width: 300px;
+  }
   .iconsSkillContainer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-top: 2em;
+    width: 300px;
   }
 }

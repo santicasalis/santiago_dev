@@ -64,12 +64,25 @@ font-family: 'Unbounded', sans-serif; */
     margin-top: 7rem;
     margin-right: 1rem;
     margin-left: 1rem;
+    min-width: 300px;
+    max-width: 100%; /* Ajustar al ancho de la pantalla */
+    width: 100%;
   }
   .fullStack {
     text-align: center;
   }
   .description {
-    text-align: center;
+    text-align: left;
     margin: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .sectionHelloContainer {
+    align-items: flex-start;
+    margin-top: 7rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    max-width: 300px;
   }
 }

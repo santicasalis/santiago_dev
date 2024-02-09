@@ -9,7 +9,14 @@ import { Footer } from "../components/footer/Footer";
 
 const Home = () => {
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       <SectionHello />
       <CodingSkills />
       <Projectos />

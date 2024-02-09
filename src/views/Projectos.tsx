@@ -82,7 +82,15 @@ const projects = [
 
 export const Projectos = () => {
   return (
-    <div style={{ marginTop: "3rem", marginBottom: "3rem" }}>
+    <div
+      style={{
+        marginTop: "3rem",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       <div className={styles.skillTitle}>Projects</div>
       <ProjectsContainer projects={projects} />
     </div>

@@ -37,7 +37,11 @@ export const CodingSkills = () => {
               <img
                 src={skill.imageSrc}
                 alt={skill.name}
-                style={{ width: "50px" }}
+                style={{
+                  width: "50px",
+                  marginRight: "15px",
+                  marginLeft: "15px",
+                }}
               />
               <p>{skill.name}</p>
             </div>
