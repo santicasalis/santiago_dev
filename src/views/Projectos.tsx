@@ -10,9 +10,9 @@ const projects = [
       "La App es una red social de Tatuajes. Te puedes registar como Artista o como cliente. Los artistas tienen la posibilidad de subir publicaciones y gestionar sus agenda de turnos. Los clientes pueden explorar y realizar reservas de turnos para tatuarse con sus artistas favorito",
     image: "conect",
     technologies: [
-      "/src/assets/next.png",
-      "/src/assets/react.png",
-      "/src/assets/nodejs.png",
+      "https://santiago-o4epk27id-santicasalis.vercel.app/assets/next-cLW6dkpQ.png",
+      "https://santiago-o4epk27id-santicasalis.vercel.app/assets/react-5kHne8MF.png",
+      "https://santiago-o4epk27id-santicasalis.vercel.app/assets/nodejs-V3BuGDC6.png",
       "/src/assets/firebase.png",
       "/src/assets/redux.png",
       "/src/assets/expre.png",
