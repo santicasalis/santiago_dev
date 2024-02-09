@@ -34,9 +34,9 @@ const projects = [
     image:
       "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707501640/todo_bkvxne.png",
     technologies: [
-      "/src/assets/vue.png",
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502982/vue_qbtk2z.png",
       "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502019/nodejs_lvz1w4.png",
-      "/src/assets/supabase.png",
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502944/supabase_a3wpaz.png",
       "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502269/js_msagw4.png",
       "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502221/html_vao4kq.png",
       "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502319/css_iwdfcw.png",
