@@ -41,7 +41,7 @@ const Contact = () => {
           Swal.fire({
             position: "center",
             icon: "success",
-            title: "Tu formulario se envío correctamente",
+            title: "Your form has been sent successfully",
             showConfirmButton: false,
             timer: 1500,
           });
@@ -63,7 +63,7 @@ const Contact = () => {
         }}
         className={styles.title}
       >
-        <MdOutlineMarkEmailRead style={{ marginRight: "8px" }} /> Contacto{" "}
+        <MdOutlineMarkEmailRead style={{ marginRight: "8px" }} /> Contact me{" "}
       </div>
       {isSubmitted && <p>Formulario enviado correctamente</p>}
       <Formik
@@ -73,7 +73,7 @@ const Contact = () => {
       >
         <Form ref={form} onSubmit={sendEmail} className={styles.formResponsive}>
           <div className={styles.labelInput}>
-            <label htmlFor="nombre">Nombre:</label>
+            <label htmlFor="nombre">Name:</label>
             <Field className={styles.inputField} name="nombre" id="nombre" />
             <ErrorMessage
               name="nombre"
@@ -94,7 +94,7 @@ const Contact = () => {
               className={styles.error}
             />
 
-            <label htmlFor="mensaje">Mensaje:</label>
+            <label htmlFor="mensaje">Message:</label>
             <Field
               name="mensaje"
               id="mensaje"
@@ -108,7 +108,7 @@ const Contact = () => {
             />
           </div>
           <button type="submit" className={styles.buttonSubmit}>
-            Enviar
+            Send
           </button>
         </Form>
       </Formik>

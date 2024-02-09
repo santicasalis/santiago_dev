@@ -5,7 +5,14 @@ import { CodingSkills } from "../components/codingSkills/CodingSkills";
 
 export const Experiences = () => {
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       {" "}
       <Experience />
       <Education />

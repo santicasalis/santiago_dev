@@ -54,25 +54,30 @@ export const AboutMe = () => {
             lineHeight: "1.6",
           }}
         >
-          Soy una persona apasionada por la tecnología, mi objetivo es formar
-          parte de equipos colaborativos, donde pueda aportar y aprender, con el
-          objetivo final de contribuir al crecimiento y éxito de proyectos
-          tecnológicos.
+          I am a person passionate about technology, my goal is to be part of
+          collaborative teams, where I can contribute and learn, with
+          collaborative teams, where I can contribute and learn, with the
+          ultimate goal of contributing to the the ultimate goal of contributing
+          to the growth and success of technological projects. technological
+          projects.
           <br /> <br />
-          Tengo más de 9 años de experiencia en el sector automotriz, he
-          destacado como responsable de procesos de atención al cliente y
-          asistente administrativo en marketing y recursos humanos.
+          I have more than 9 years of experience in the automotive sector, I
+          have excelled as a customer service as responsible for customer
+          service processes and administrative assistant in marketing and human
+          administrative assistant in marketing and human resources.
           <br /> <br />
-          Mi historial incluye liderar equipos para garantizar altos estándares
-          de servicio, implementar estrategias efectivas para mejorar la
-          experiencia del cliente y gestionar eficientemente reclamaciones. He
-          integrado tecnologías para optimizar procesos administrativos
+          My track record includes leading teams to ensure high standards of
+          service, implementing effective service standards, implementing
+          effective strategies to improve the customer experience and customer
+          experience and efficiently managing complaints. I have integrated
+          technologies to optimize administrative processes.
           <br />
           <br />
-          Durante los últimos dos años, he tenido la oportunidad de vivir una
-          experiencia en Europa. Mi enfoque durante este tiempo ha sido la
-          combinación de desarrollo profesional y personal a través de un
-          bootcamp de programación Front end y el deporte.
+          During the last two years, I have had the opportunity to live an
+          experience in Europe. experience in Europe. My focus during this time
+          has been the combination of professional and personal development
+          through a Front end programming bootcamp and sports. through a Front
+          end programming bootcamp and sports.
         </p>
       </div>
     </div>

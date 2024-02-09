@@ -24,7 +24,7 @@ export const Projects = ({
         <div className={styles.cardBack}>
           {/* cara posterior */}
           <div>
-            <h2>Tecnologías</h2>
+            <h2>Technologies</h2>
             <div className={styles.techContainer}>
               {projectTecnology.map((tech, index) => (
                 <div key={index} className={styles.techItem}>
@@ -36,14 +36,14 @@ export const Projects = ({
           <div className={styles.urlContainer}>
             <Link to={projectUrl} className={styles.link} target="_blank">
               <TbWorldWww style={{ fontSize: "24px", marginRight: "4px" }} />{" "}
-              Enlace Web{" "}
+              Web Link{" "}
             </Link>
             <Link to={projectGit} className={styles.link} target="_blank">
               {" "}
               <FaGithub
                 style={{ fontSize: "24px", marginRight: " 4px" }}
               />{" "}
-              Enlace GitHub
+              GitHub Link
             </Link>
           </div>
         </div>

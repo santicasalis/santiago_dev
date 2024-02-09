@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     name: "Conect Ink",
     description:
-      "La App es una red social de Tatuajes. Te puedes registar como Artista o como cliente. Los artistas tienen la posibilidad de subir publicaciones y gestionar sus agenda de turnos. Los clientes pueden explorar y realizar reservas de turnos para tatuarse con sus artistas favorito",
+      "The App is a social network of Tattoos. You can register as an Artist or as a client. Artists have the possibility to upload posts and manage their appointment schedules. Customers can browse and book tattoo appointments with their favorite artists.",
     image:
       "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707501566/connectink_zoz64i.png",
     technologies: [
@@ -30,7 +30,7 @@ const projects = [
     id: 3,
     name: "ToDo list",
     description:
-      "Es una app que te permite gestionar tus tareas.Permite a los usuarios crear una cuenta, añadir tareas a completar, editarlas, marcarlas como completadas y finalmente borrarlas.La app esta vinculada a una base de datos en Supabase, donde se almacenantodos los datos de los usuarios y sus tareas.",
+      "This App allows users to create an account, add tasks to complete, edit them, mark them as completed and finally delete them. The app is linked to a database in Supabase, where all the users' data and tasks are stored.",
     image:
       "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707501640/todo_bkvxne.png",
     technologies: [
@@ -49,7 +49,7 @@ const projects = [
     id: 4,
     name: "Circle Agency",
     description:
-      "Es una página web creada exclusivamente con JavaScript, HTML y CSS. Esta plataforma te brinda una experiencia intuitiva y atractiva para explorar los servicios de la empresa. ",
+      "This website was  created exclusively with JavaScript, HTML and CSS. This platform provides an intuitive and attractive experience to explore the company's services.",
     image:
       "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707501707/circle_egog9f.png",
     technologies: [
@@ -64,7 +64,7 @@ const projects = [
     id: 2,
     name: "Ecommerce Ford",
     description:
-      "Es un Ecommerse de vehiculos de la marca Ford. Utilizando React y firebase como base de datos dónde se maneja los precios y stock de los vehículos.",
+      "It is an Ecommerse of Ford vehicles. Using React and firebase as a database where prices and stock of vehicles are managed.",
     image:
       "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707501479/forda_jvmtho.png",
     technologies: [

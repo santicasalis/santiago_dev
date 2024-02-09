@@ -13,11 +13,19 @@ export const SectionHello = () => {
         <div className={styles.fullStack}>Full Stack Developer</div>
 
         <div className={styles.description}>
-          Un apasionado desarrollador web full stack con una sólida base en la
-          industria automotriz. Mi experiencia en la gestión de procesos de
-          atención al cliente y calidad de servicios me permite enfocarme en
-          crear soluciones innovadoras que optimicen la experiencia del usuario.
-          Con un enfoque centrado en la calidad y la eficiencia.
+          Full Stack Web Developer with experience in the automotive industry,
+          where I worked as responsible for customer service processes in
+          after-sales and sales. <br /> <br /> Recently I successfully completed
+          the Full Stack web development bootcamp where I acquired knowledge in
+          Front-end, Back-end, Agile methodologies, GIT, data structure and
+          algorithms with specialization in technologies such as JavaScript,
+          React, Next, Redux Node.js, PostgreSQL, Express and Sequelize. <br />{" "}
+          <br />
+          My previous experiences have provided me with valuable skills, such as
+          leading teams, collaborating effectively, analyzing massive data and
+          optimizing processes for continuous improvement. As a professional, I
+          stand out for my ability to face challenges, learn quickly and
+          collaborate effectively.
         </div>
         <div className={styles.iconsContainer}>
           <div className={styles.iconItem}>

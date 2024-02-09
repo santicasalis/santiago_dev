@@ -10,9 +10,9 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { label: "Sobre Mi", path: "/aboutme" },
-  { label: "Experiencia", path: "/experience" },
-  { label: "Contacto", path: "/contact" },
+  { label: "About Me", path: "/aboutme" },
+  { label: "Experience", path: "/experience" },
+  { label: "Contact", path: "/contact" },
 ];
 export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
