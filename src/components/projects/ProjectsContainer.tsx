@@ -1,7 +1,7 @@
 import React from "react";
 import { Projects } from "./Projects";
 import styles from "../projects/projects.module.css";
-import conect from "../../assets/conectink.png";
+
 export const ProjectsContainer = ({ projects }) => {
   return (
     <div className={styles.proyectsContainer}>

@@ -8,7 +8,8 @@ const projects = [
     name: "Conect Ink",
     description:
       "La App es una red social de Tatuajes. Te puedes registar como Artista o como cliente. Los artistas tienen la posibilidad de subir publicaciones y gestionar sus agenda de turnos. Los clientes pueden explorar y realizar reservas de turnos para tatuarse con sus artistas favorito",
-    image: "conect",
+    image:
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707501566/connectink_zoz64i.png",
     technologies: [
       "https://santiago-o4epk27id-santicasalis.vercel.app/assets/next-cLW6dkpQ.png",
       "https://santiago-o4epk27id-santicasalis.vercel.app/assets/react-5kHne8MF.png",
@@ -30,7 +31,8 @@ const projects = [
     name: "ToDo list",
     description:
       "Es una app que te permite gestionar tus tareas.Permite a los usuarios crear una cuenta, añadir tareas a completar, editarlas, marcarlas como completadas y finalmente borrarlas.La app esta vinculada a una base de datos en Supabase, donde se almacenantodos los datos de los usuarios y sus tareas.",
-    image: "/src/assets/todo.png",
+    image:
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707501640/todo_bkvxne.png",
     technologies: [
       "/src/assets/vue.png",
       "/src/assets/nodejs.png",
@@ -48,7 +50,8 @@ const projects = [
     name: "Circle Agency",
     description:
       "Es una página web creada exclusivamente con JavaScript, HTML y CSS. Esta plataforma te brinda una experiencia intuitiva y atractiva para explorar los servicios de la empresa. ",
-    image: "/src/assets/circle.png",
+    image:
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707501707/circle_egog9f.png",
     technologies: [
       "/src/assets/js.png",
       "/src/assets/html.png",
@@ -62,7 +65,8 @@ const projects = [
     name: "Ecommerce Ford",
     description:
       "Es un Ecommerse de vehiculos de la marca Ford. Utilizando React y firebase como base de datos dónde se maneja los precios y stock de los vehículos.",
-    image: "/src/assets/forda.png",
+    image:
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707501479/forda_jvmtho.png",
     technologies: [
       "/src/assets/react.png",
       "/src/assets/nodejs.png",
