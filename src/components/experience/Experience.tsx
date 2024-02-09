@@ -2,14 +2,6 @@ import React from "react";
 import styles from "../experience/experience.module.css";
 export const Experience = () => {
   const experiences = [
-    // {
-    //   id: 0,
-    //   date: "",
-    //   title: "",
-    //   description: "",
-    //   location: "",
-    // },
-
     {
       id: 1,
       date: "Marzo 2023 - Agosto 2023",
