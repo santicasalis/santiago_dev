@@ -9,7 +9,7 @@
 }
 
 .card {
-  width: 500px;
+  width: 450px;
   height: 400px;
   position: relative;
   transform-style: preserve-3d;
@@ -88,4 +88,19 @@
   font-family: "Secular One", sans-serif;
   font-size: xx-large;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .cardContainer {
+    perspective: 1000px;
+    margin: 1rem;
+  }
+
+  .card {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
 }

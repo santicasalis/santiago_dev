@@ -20,6 +20,9 @@ export const Nav = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
 
   return (
     <header className={styles.navbar}>
@@ -34,7 +37,11 @@ export const Nav = () => {
         >
           {navItems.map((item) => (
             <li key={item.label} className={styles.navbar__listItem}>
-              <Link to={item.path} className={styles.navbar__link}>
+              <Link
+                to={item.path}
+                className={styles.navbar__link}
+                onClick={closeMenu}
+              >
                 {item.label}
               </Link>
             </li>
