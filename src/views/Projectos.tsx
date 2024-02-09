@@ -1,13 +1,14 @@
 import React from "react";
 import { ProjectsContainer } from "../components/projects/ProjectsContainer";
 import styles from "../components/codingSkills/codingSkills.module.css";
+
 const projects = [
   {
     id: 1,
     name: "Conect Ink",
     description:
       "La App es una red social de Tatuajes. Te puedes registar como Artista o como cliente. Los artistas tienen la posibilidad de subir publicaciones y gestionar sus agenda de turnos. Los clientes pueden explorar y realizar reservas de turnos para tatuarse con sus artistas favorito",
-    image: "/santiago_dev/src/assets/connectink.png",
+    image: "conect",
     technologies: [
       "/src/assets/next.png",
       "/src/assets/react.png",

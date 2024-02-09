@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
-
+import conect from "../../assets/conectink.png";
 export const Projects = ({
   projectName,
   projectDescription,
