@@ -8,7 +8,7 @@ export const SectionHello = () => {
   return (
     <>
       <div className={styles.sectionHelloContainer}>
-        <div className={styles.hello}> HELLO, MY NAME IS SANTI</div>
+        <div className={styles.hello}> HELLO, MY NAME IS SANTIAGO</div>
 
         <div className={styles.fullStack}>Full Stack Developer</div>
 

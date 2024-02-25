@@ -4,6 +4,23 @@ import styles from "../components/codingSkills/codingSkills.module.css";
 
 const projects = [
   {
+    id: 5,
+    name: "Nutritionist website",
+    description:
+      "The Single Page Application (SPA) I designed for the nutritionist is an interactive and easy-to-use platform that allows your clients to access personalized information about eating habits and health. The SPA loads instantly in the browser, providing a seamless experience without the need to reload the page.",
+    image:
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1708904250/webnutri_fpicyh.png",
+    technologies: [
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707501970/react_guhqec.png",
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502019/nodejs_lvz1w4.png",
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502269/js_msagw4.png",
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502221/html_vao4kq.png",
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502319/css_iwdfcw.png",
+    ],
+    projectUrl: "https://licflorenciacasalis.netlify.app/",
+    projectGit: "https://github.com/santicasalis/nutricion",
+  },
+  {
     id: 1,
     name: "Conect Ink",
     description:
