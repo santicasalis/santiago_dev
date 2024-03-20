@@ -17,7 +17,7 @@ const projects = [
       "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502221/html_vao4kq.png",
       "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502319/css_iwdfcw.png",
     ],
-    projectUrl: "https://licflorenciacasalis.netlify.app/",
+    projectUrl: "https://www.fcnutricion.com/",
     projectGit: "https://github.com/santicasalis/nutricion",
   },
   {
