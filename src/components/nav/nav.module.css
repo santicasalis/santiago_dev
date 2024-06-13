@@ -75,6 +75,8 @@
     left: 0%;
     background-color: #202f46;
     width: 100%;
+    font-size: x-large;
+   
   }
   .navbar__closed {
     display: none;

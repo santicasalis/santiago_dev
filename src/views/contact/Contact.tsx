@@ -60,6 +60,7 @@ const Contact = () => {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          
         }}
         className={styles.title}
       >

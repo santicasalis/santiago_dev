@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 export const Footer = () => {
   return (
-    <div className={styles.footerContainer}>
+    <footer className={styles.footerContainer}>
       <Link to="/" className={styles.navbar__logo}>
         <img
           src={logo}
@@ -45,6 +45,6 @@ export const Footer = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };

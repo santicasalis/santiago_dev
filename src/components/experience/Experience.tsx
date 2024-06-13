@@ -42,7 +42,7 @@ export const Experience = () => {
       {experiences.map((experience, index) => (
         <div key={experience.id} className={styles["timeline-item"]}>
           {index !== 0 && <div className={styles["timeline-connector"]}></div>}
-          <div className={styles["timeline-dot"]}></div>
+          {/* <div className={styles["timeline-dot"]}></div> */}
           <div className={styles["timeline-content"]}>
             <span className={styles["timeline-time"]}>{experience.date}</span>
             <h3 className={styles["timeline-title"]}>{experience.title}</h3>
@@ -55,8 +55,16 @@ export const Experience = () => {
               </p>
             )}
           </div>
+
+
+
+
+          
         </div>
       ))}
+
+
+
     </div>
   );
 };

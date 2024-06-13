@@ -93,13 +93,14 @@
 @media screen and (max-width: 768px) {
   .cardContainer {
     perspective: 1000px;
-    margin: 1rem;
+    margin: 1rem auto;
   }
 
   .card {
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 600px;
     position: relative;
+    font-size: 1.3rem;
     transform-style: preserve-3d;
     transition: transform 0.5s;
   }

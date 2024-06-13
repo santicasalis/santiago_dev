@@ -48,7 +48,7 @@ export const Nav = () => {
           ))}
         </ul>
         <button className={styles.navbar__menuButton} onClick={toggleMenu}>
-          <FaBars />
+          <FaBars style={{ fontSize: '3rem' }}/>
         </button>
       </nav>
     </header>

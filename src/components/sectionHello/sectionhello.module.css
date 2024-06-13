@@ -73,7 +73,11 @@ font-family: 'Unbounded', sans-serif; */
   }
   .description {
     text-align: left;
-    margin: 1rem 2rem;
+    margin: 1rem auto;
+    font-size:x-large;
+  }
+  .hello{
+    font-size: larger;
   }
 }
 
@@ -84,5 +88,13 @@ font-family: 'Unbounded', sans-serif; */
     margin-right: 1rem;
     margin-left: 1rem;
     max-width: 300px;
+  }
+  .description {
+    text-align: left;
+    margin: 1rem auto;
+    font-size:x-large;
+  }
+  .hello{
+    font-size: larger;
   }
 }
