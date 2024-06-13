@@ -36,7 +36,6 @@
 }
 
 .iconSize:hover {
-  border: 2px solid white;
-  border-radius: 15px;
-  padding: 2px;
+  color: #a8201a;
+ 
 }

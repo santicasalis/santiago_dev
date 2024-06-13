@@ -28,7 +28,7 @@ export const Nav = () => {
     <header className={styles.navbar}>
       <nav className={styles.navbar__nav}>
         <Link to="/" className={styles.navbar__logo}>
-          <img src={logo} alt="" style={{ width: "60px", height: "60px" }} />
+          <img src={logo} alt="" className={styles.logo} style={{ width: "60px", height: "60px" }} />
         </Link>
         <ul
           className={`${styles.navbar__list} ${

@@ -19,7 +19,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 80%;
   height: 30rem;
   border: 2px solid #3498db;
   border-radius: 15px;
@@ -70,13 +70,18 @@
   .contactContainer {
    
     margin-top: 2rem;
+    height: 45rem;
   }
+
 }
 
 @media screen and (max-width: 560px) {
   .contactContainer {
     width: 100%;
     margin-top: 2rem;
+  }
+  .title{
+    margin-top: 7rem;
   }
   .formResponsive {
     display: flex;

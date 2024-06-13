@@ -54,6 +54,7 @@ const Contact = () => {
   };
 
   return (
+    <div className={styles.container}>
     <div className={styles.contactContainer}>
       <div
         style={{
@@ -113,7 +114,8 @@ const Contact = () => {
           </button>
         </Form>
       </Formik>
-    </div>
+      </div>
+      </div>
   );
 };
 
