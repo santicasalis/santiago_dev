@@ -4,10 +4,28 @@ import styles from "../components/codingSkills/codingSkills.module.css";
 
 const projects = [
   {
+    id: 6,
+    name: "US Consulting website",
+    description:
+      "This website serves as a dynamic platform for an HR consulting firm, offering clients an intuitive experience to search and apply for job openings. Featuring a user-friendly interface, the site allows candidates to filter job listings by modality (in-office, hybrid, remote), perform targeted searches by job title and location, and easily apply for positions. The site also highlights key vacancies and provides clear visibility into job status, ensuring an efficient and engaging job search experience.",
+    image:
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1721929274/Captura_de_pantalla_2024-07-25_143858_nioiu5.png",
+    technologies: [
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502019/nodejs_lvz1w4.png",
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502269/js_msagw4.png",
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707502060/firebase_nye7vt.png",
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707501904/next_ceogif.png",
+      "https://res.cloudinary.com/ddpmly8bf/image/upload/v1707501970/react_guhqec.png",
+      "https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg"
+    ],
+    projectUrl: "https://www.us-hrconsulting.com.ar/",
+    projectGit: "https://github.com/santicasalis/usConsulting",
+  },
+  {
     id: 5,
     name: "Nutritionist website",
     description:
-      "The Single Page Application (SPA) I designed for the nutritionist is an interactive and easy-to-use platform that allows your clients to access personalized information about eating habits and health. The SPA loads instantly in the browser, providing a seamless experience without the need to reload the page.",
+      "The Single Page Application (SPA) I designed for the nutritionist is an interactive and user-friendly platform that enables clients to access personalized information on eating habits and health. This SPA delivers instant loading in the browser, offering a smooth and seamless experience without the need for page reloads.",
     image:
       "https://res.cloudinary.com/ddpmly8bf/image/upload/v1708904250/webnutri_fpicyh.png",
     technologies: [
